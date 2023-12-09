@@ -10,7 +10,7 @@ export default function Fruit() {
     const hasNext = fruit < listFruit.length - 1
     
 
-    
+
  function handleClick () {
     if(hasNext) {
       setFruit(fruit + 1);
@@ -40,7 +40,7 @@ return (
       src={tropicalFruit.url} 
       alt={tropicalFruit.alt}
     />
-    <p>
+    <p className="h-20">
       {tropicalFruit.description}
     </p>
   </>
